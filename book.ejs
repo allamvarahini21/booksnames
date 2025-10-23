@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>All books are here</h3>
+
+     <% for (let book of books) { %>
+        <div>
+            <h4>Title: <%= book.title %></h4>
+            <p>Author: <%= book.author %></p>
+            <p>Price: ₹<%= book.price %></p>
+        </div>
+     <% } %>
+</body>
+</html>
